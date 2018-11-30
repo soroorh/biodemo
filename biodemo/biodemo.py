@@ -136,8 +136,7 @@ class FastaStats(object):
         min_len = max_len = None
         for seq in SeqIO.parse(fasta_file, "fasta"):
             this_len = len(seq)
-            if this_len >= minlen_threshold and 
-              (maxlen_threshold is None or this_len <= maxlen_threshold):
+            if this_len >= minlen_threshold and (maxlen_threshold is None or this_len <= maxlen_threshold):
                 if num_seqs == 0:
                     min_len = max_len = this_len
                 else:
