@@ -1,5 +1,7 @@
 [![travis](https://travis-ci.org/soroorh/biodemo.svg?branch=master)](https://travis-ci.org/soroorh/biodemo)
 
+[![codecov](https://codecov.io/github/soroorh/biodemo/branch/master/graphs/badge.svg)](https://codecov.io/github/soroorh/biodemo)
+
 # Overview 
 
 This program reads one or more input FASTA files. For each file it computes a variety of statistics, and then prints a summary of the statistics as output.
